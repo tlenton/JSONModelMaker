@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2244893618DACDF30008A355 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2244893518DACDF30008A355 /* Cocoa.framework */; };
+		2244894018DACDF30008A355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2244893E18DACDF30008A355 /* InfoPlist.strings */; };
+		2244894218DACDF30008A355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244894118DACDF30008A355 /* main.m */; };
+		2244894618DACDF30008A355 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2244894418DACDF30008A355 /* Credits.rtf */; };
+		2244894918DACDF30008A355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244894818DACDF30008A355 /* AppDelegate.m */; };
+		2244894C18DACDF30008A355 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2244894A18DACDF30008A355 /* MainMenu.xib */; };
+		2244894E18DACDF30008A355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2244894D18DACDF30008A355 /* Images.xcassets */; };
+		2244895518DACDF30008A355 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2244895418DACDF30008A355 /* XCTest.framework */; };
+		2244895618DACDF30008A355 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2244893518DACDF30008A355 /* Cocoa.framework */; };
+		2244895E18DACDF30008A355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2244895C18DACDF30008A355 /* InfoPlist.strings */; };
+		2244896018DACDF30008A355 /* JSON_Model_MakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244895F18DACDF30008A355 /* JSON_Model_MakerTests.m */; };
+		2244896B18DACF1B0008A355 /* JSONModelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244896A18DACF1B0008A355 /* JSONModelMaker.m */; };
+		2244896E18DAD0EF0008A355 /* ModelMakerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244896D18DAD0EF0008A355 /* ModelMakerView.m */; };
+		2244897018DD4F310008A355 /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 2244896F18DD4F310008A355 /* default.json */; };
+		2244897318DD524E0008A355 /* NSString+Inflections.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244897218DD524E0008A355 /* NSString+Inflections.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2244895718DACDF30008A355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2244892A18DACDF20008A355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2244893118DACDF30008A355;
+			remoteInfo = "JSON Model Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2244893218DACDF30008A355 /* JSON Model Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Model Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2244893518DACDF30008A355 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2244893818DACDF30008A355 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2244893918DACDF30008A355 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2244893A18DACDF30008A355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2244893D18DACDF30008A355 /* JSON Model Maker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSON Model Maker-Info.plist"; sourceTree = "<group>"; };
+		2244893F18DACDF30008A355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2244894118DACDF30008A355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2244894318DACDF30008A355 /* JSON Model Maker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSON Model Maker-Prefix.pch"; sourceTree = "<group>"; };
+		2244894518DACDF30008A355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2244894718DACDF30008A355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2244894818DACDF30008A355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2244894B18DACDF30008A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2244894D18DACDF30008A355 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2244895318DACDF30008A355 /* JSON Model MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON Model MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2244895418DACDF30008A355 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2244895B18DACDF30008A355 /* JSON Model MakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSON Model MakerTests-Info.plist"; sourceTree = "<group>"; };
+		2244895D18DACDF30008A355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2244895F18DACDF30008A355 /* JSON_Model_MakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSON_Model_MakerTests.m; sourceTree = "<group>"; };
+		2244896918DACF1B0008A355 /* JSONModelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelMaker.h; sourceTree = "<group>"; };
+		2244896A18DACF1B0008A355 /* JSONModelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelMaker.m; sourceTree = "<group>"; };
+		2244896C18DAD0EF0008A355 /* ModelMakerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMakerView.h; sourceTree = "<group>"; };
+		2244896D18DAD0EF0008A355 /* ModelMakerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMakerView.m; sourceTree = "<group>"; };
+		2244896F18DD4F310008A355 /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		2244897118DD524E0008A355 /* NSString+Inflections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Inflections.h"; sourceTree = "<group>"; };
+		2244897218DD524E0008A355 /* NSString+Inflections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Inflections.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2244892F18DACDF30008A355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244893618DACDF30008A355 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2244895018DACDF30008A355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244895618DACDF30008A355 /* Cocoa.framework in Frameworks */,
+				2244895518DACDF30008A355 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2244892918DACDF20008A355 = {
+			isa = PBXGroup;
+			children = (
+				2244893B18DACDF30008A355 /* JSON Model Maker */,
+				2244895918DACDF30008A355 /* JSON Model MakerTests */,
+				2244893418DACDF30008A355 /* Frameworks */,
+				2244893318DACDF30008A355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2244893318DACDF30008A355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2244893218DACDF30008A355 /* JSON Model Maker.app */,
+				2244895318DACDF30008A355 /* JSON Model MakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2244893418DACDF30008A355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2244893518DACDF30008A355 /* Cocoa.framework */,
+				2244895418DACDF30008A355 /* XCTest.framework */,
+				2244893718DACDF30008A355 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2244893718DACDF30008A355 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2244893818DACDF30008A355 /* AppKit.framework */,
+				2244893918DACDF30008A355 /* CoreData.framework */,
+				2244893A18DACDF30008A355 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2244893B18DACDF30008A355 /* JSON Model Maker */ = {
+			isa = PBXGroup;
+			children = (
+				2244894718DACDF30008A355 /* AppDelegate.h */,
+				2244894818DACDF30008A355 /* AppDelegate.m */,
+				2244896918DACF1B0008A355 /* JSONModelMaker.h */,
+				2244896A18DACF1B0008A355 /* JSONModelMaker.m */,
+				2244896C18DAD0EF0008A355 /* ModelMakerView.h */,
+				2244896D18DAD0EF0008A355 /* ModelMakerView.m */,
+				2244897118DD524E0008A355 /* NSString+Inflections.h */,
+				2244897218DD524E0008A355 /* NSString+Inflections.m */,
+				2244896F18DD4F310008A355 /* default.json */,
+				2244894A18DACDF30008A355 /* MainMenu.xib */,
+				2244894D18DACDF30008A355 /* Images.xcassets */,
+				2244893C18DACDF30008A355 /* Supporting Files */,
+			);
+			path = "JSON Model Maker";
+			sourceTree = "<group>";
+		};
+		2244893C18DACDF30008A355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2244893D18DACDF30008A355 /* JSON Model Maker-Info.plist */,
+				2244893E18DACDF30008A355 /* InfoPlist.strings */,
+				2244894118DACDF30008A355 /* main.m */,
+				2244894318DACDF30008A355 /* JSON Model Maker-Prefix.pch */,
+				2244894418DACDF30008A355 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2244895918DACDF30008A355 /* JSON Model MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2244895F18DACDF30008A355 /* JSON_Model_MakerTests.m */,
+				2244895A18DACDF30008A355 /* Supporting Files */,
+			);
+			path = "JSON Model MakerTests";
+			sourceTree = "<group>";
+		};
+		2244895A18DACDF30008A355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2244895B18DACDF30008A355 /* JSON Model MakerTests-Info.plist */,
+				2244895C18DACDF30008A355 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2244893118DACDF30008A355 /* JSON Model Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2244896318DACDF30008A355 /* Build configuration list for PBXNativeTarget "JSON Model Maker" */;
+			buildPhases = (
+				2244892E18DACDF30008A355 /* Sources */,
+				2244892F18DACDF30008A355 /* Frameworks */,
+				2244893018DACDF30008A355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSON Model Maker";
+			productName = "JSON Model Maker";
+			productReference = 2244893218DACDF30008A355 /* JSON Model Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2244895218DACDF30008A355 /* JSON Model MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2244896618DACDF30008A355 /* Build configuration list for PBXNativeTarget "JSON Model MakerTests" */;
+			buildPhases = (
+				2244894F18DACDF30008A355 /* Sources */,
+				2244895018DACDF30008A355 /* Frameworks */,
+				2244895118DACDF30008A355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2244895818DACDF30008A355 /* PBXTargetDependency */,
+			);
+			name = "JSON Model MakerTests";
+			productName = "JSON Model MakerTests";
+			productReference = 2244895318DACDF30008A355 /* JSON Model MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2244892A18DACDF20008A355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Westpac;
+				TargetAttributes = {
+					2244895218DACDF30008A355 = {
+						TestTargetID = 2244893118DACDF30008A355;
+					};
+				};
+			};
+			buildConfigurationList = 2244892D18DACDF20008A355 /* Build configuration list for PBXProject "JSON Model Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2244892918DACDF20008A355;
+			productRefGroup = 2244893318DACDF30008A355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2244893118DACDF30008A355 /* JSON Model Maker */,
+				2244895218DACDF30008A355 /* JSON Model MakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2244893018DACDF30008A355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244894018DACDF30008A355 /* InfoPlist.strings in Resources */,
+				2244897018DD4F310008A355 /* default.json in Resources */,
+				2244894E18DACDF30008A355 /* Images.xcassets in Resources */,
+				2244894618DACDF30008A355 /* Credits.rtf in Resources */,
+				2244894C18DACDF30008A355 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2244895118DACDF30008A355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244895E18DACDF30008A355 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2244892E18DACDF30008A355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244894918DACDF30008A355 /* AppDelegate.m in Sources */,
+				2244894218DACDF30008A355 /* main.m in Sources */,
+				2244897318DD524E0008A355 /* NSString+Inflections.m in Sources */,
+				2244896B18DACF1B0008A355 /* JSONModelMaker.m in Sources */,
+				2244896E18DAD0EF0008A355 /* ModelMakerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2244894F18DACDF30008A355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244896018DACDF30008A355 /* JSON_Model_MakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2244895818DACDF30008A355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2244893118DACDF30008A355 /* JSON Model Maker */;
+			targetProxy = 2244895718DACDF30008A355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2244893E18DACDF30008A355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2244893F18DACDF30008A355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2244894418DACDF30008A355 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2244894518DACDF30008A355 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2244894A18DACDF30008A355 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2244894B18DACDF30008A355 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2244895C18DACDF30008A355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2244895D18DACDF30008A355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2244896118DACDF30008A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2244896218DACDF30008A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2244896418DACDF30008A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSON Model Maker/JSON Model Maker-Prefix.pch";
+				INFOPLIST_FILE = "JSON Model Maker/JSON Model Maker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2244896518DACDF30008A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSON Model Maker/JSON Model Maker-Prefix.pch";
+				INFOPLIST_FILE = "JSON Model Maker/JSON Model Maker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2244896718DACDF30008A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSON Model Maker.app/Contents/MacOS/JSON Model Maker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSON Model Maker/JSON Model Maker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSON Model MakerTests/JSON Model MakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2244896818DACDF30008A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSON Model Maker.app/Contents/MacOS/JSON Model Maker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSON Model Maker/JSON Model Maker-Prefix.pch";
+				INFOPLIST_FILE = "JSON Model MakerTests/JSON Model MakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2244892D18DACDF20008A355 /* Build configuration list for PBXProject "JSON Model Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2244896118DACDF30008A355 /* Debug */,
+				2244896218DACDF30008A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2244896318DACDF30008A355 /* Build configuration list for PBXNativeTarget "JSON Model Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2244896418DACDF30008A355 /* Debug */,
+				2244896518DACDF30008A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2244896618DACDF30008A355 /* Build configuration list for PBXNativeTarget "JSON Model MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2244896718DACDF30008A355 /* Debug */,
+				2244896818DACDF30008A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2244892A18DACDF20008A355 /* Project object */;
+}
